@@ -43,7 +43,7 @@ public class Product {
     // Override toString method to display product details
     @Override
     public String toString() {
-        return "Product ID: " + ID + ", Name: " + name + ", Price: " + price;
+        return "Product ID: " + ID + ", Name: " + name + ", Price: " + String.format("%.2f", price) + " SAR";
     }
 
 }
