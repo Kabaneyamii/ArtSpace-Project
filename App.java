@@ -10,7 +10,7 @@ public class App {
         Product[] products = {p1, p2}; // Store them in an array
 
         // Create two customer objects
-        Customer c1 = new Customer("Noor Alenzi", 7001, "Dammam", "0581234567", "noor.alenzi@gsmil.com");
+        Customer c1 = new Customer("Noor Alenzi", 7001, "Dammam", "0581234567", "noor.alenzi@gmail.com");
         Customer c2 = new Customer("Ahmed Alharbi", 7002, "Jeddah", "0579876543", "h.alharbi@gmail.com");
         Customer[] customers = {c1, c2}; // Store them in array
 
